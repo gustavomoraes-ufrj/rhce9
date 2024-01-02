@@ -1,0 +1,5 @@
+[hrel]
+ansible[1:2]
+
+[debian]
+debianworker01
