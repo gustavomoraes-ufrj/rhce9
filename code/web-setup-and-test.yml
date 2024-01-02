@@ -35,6 +35,6 @@
   tasks:
     - name: connect to the web server
       uri:
-        url: http://ansible1.example.com
+        url: http://ansible1.example.local
         return_content: yes
         status_code: 200

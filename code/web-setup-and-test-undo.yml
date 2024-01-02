@@ -1,0 +1,13 @@
+---
+- name: remove webserver
+  hosts: ansible1
+  tasks:
+    - name: delete httpd 
+      yum:
+        name:
+          - httpd
+        state: absent
+    - name: remove file
+      file:
+        name: /var/www/html/index.html
+        state: absent
