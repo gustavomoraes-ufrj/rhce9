@@ -1,0 +1,13 @@
+2023-12-10T06:39:44.145982+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2023-12-10T06:39:44.148589+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2023-12-10T06:39:44.148818+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: time="2023-12-10T17:39:43+11:00" level=warning msg="The cgroupv2 manager is set to systemd but there is no systemd user session available"
+time="2023-12-10T17:39:43+11:00" level=warning msg="For using systemd, you may need to log in using a user session"
+time="2023-12-10T17:39:43+11:00" level=warning msg="Alternatively, you can enable lingering with: `loginctl enable-linger 1001` (possibly as root)"
+time="2023-12-10T17:39:43+11:00" level=warning msg="Falling back to --cgroup-manager=cgroupfs"
+time="2023-12-10T17:39:44+11:00" level=warning msg="The cgroupv2 manager is set to systemd but there is no systemd user session available"
+time="2023-12-10T17:39:44+11:00" level=warning msg="For using systemd, you may need to log in using a user session"
+time="2023-12-10T17:39:44+11:00" level=warning msg="Alternatively, you can enable lingering with: `loginctl enable-linger 1001` (possibly as root)"
+time="2023-12-10T17:39:44+11:00" level=warning msg="Falling back to --cgroup-manager=cgroupfs"
+Error: registry.redhat.io/ansible-automation-platform-24/ee-supported-rhel8:latest: image not known
+
